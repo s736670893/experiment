@@ -102,5 +102,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-clinical_mecoluar/*_core.txt
-/clinical_mecoluar/*_core.txt
+clinical_mecoluar/brca/cox/methylation+clinical/brca_methylation_core.txt
+clinical_mecoluar/*/*/*/*_core.txt

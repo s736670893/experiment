@@ -1,0 +1,3 @@
+ls = ['ucec_methylation+clinical_by_cox.ipy', 'ucec_mRNA+clinical_by_cox.ipy', 'ucec_miRNA+clinical_by_cox.ipy', 'ucec_RPPA+clinical_by_cox.ipy']
+for l in ls:
+	%run $l

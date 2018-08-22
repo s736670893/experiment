@@ -1,0 +1,3 @@
+ls = ['brca_methylation+clinical_by_rsf.ipy', 'brca_mRNA+clinical_by_rsf.ipy', 'brca_miRNA+clinical_by_rsf.ipy', 'brca_RPPA+clinical_by_rsf.ipy']
+for l in ls:
+	%run $l
