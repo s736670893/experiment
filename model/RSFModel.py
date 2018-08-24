@@ -5,7 +5,7 @@ import rpy2.robjects as robjects
 import rpy2.robjects.numpy2ri
 
 
-def cox_model(data, clinical, survival):
+def rsf_model(data, clinical, survival):
     features = data.columns
     samples = data['feature']
 
@@ -49,7 +49,7 @@ def cox_model(data, clinical, survival):
     '''
     r(r_script)
     r.source("lasso.R")
-    r.source("coxcv.R")
+    r.source("rsfcv.R")
     predictions = []
     concordances = []
     while len(concordances) < 100:
@@ -77,14 +77,14 @@ def cox_model(data, clinical, survival):
         # print("clinical_train-->", clinical_train)
         print("***************************************************")
         print("***************************************************")
-        print("lasso + cox: ")
+        print("cox_screen + rsf: ")
 
         r_script_model = '''
             f1 <- function(trainData, trainSurvStatus, trainSurvTime, testData, testSurvStatus, testSurvTime, survStatus, survTime, trainIdx, testIdx, clinical_train, clinical_test){
                 mySurv = Surv(survTime, survStatus)
                 y.train = mySurv[trainIdx, ]
                 y.test = mySurv[testIdx, ]
-                predictedResponse <- coxcv(trainData, y.train, testData, y.test, clinical_train ,clinical_test)
+                predictedResponse <- rsfcv(trainData, y.train, testData, y.test, clinical_train ,clinical_test)
                 return (predictedResponse)
             }
         '''

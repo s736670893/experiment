@@ -9,7 +9,7 @@
 ##############################################################################
 library(foreach)
 library(doMC)
-library(randomSurvivalForest)
+library(randomForestSRC)
 registerDoMC(6)
 
 rsfcv <- function(x.train,y.train, x.test, y.test, clinical.train, clinical.test, ntree=1000) {
@@ -26,7 +26,7 @@ rsfcv <- function(x.train,y.train, x.test, y.test, clinical.train, clinical.test
         x.test <- x.test[,cols.include]
         print(paste("After univariate cox screen, features remain:", length(cols.include)))
         
-        
+       
         #Random survival forest
         if(length(cols.include)==1)
           {
@@ -40,9 +40,8 @@ rsfcv <- function(x.train,y.train, x.test, y.test, clinical.train, clinical.test
         
         data.test <- data.frame(cbind(x.test, clinical.test))
         data.train <- data.frame(cbind(x.train, clinical.train))
-
-        rf.all <- rsf(Surv(time, status)~., data=data.frame(time=y.train[,1], status=y.train[,2], data.train), ntree=ntree, seed=-1)
-        # rf <- rfsrc(Surv(time, status)~., data=data.frame(time=y.train[,1], status=y.train[,2], data.train), ntree=1000, seed=-1)
+        
+        rf.all <- rfsrc(Surv(time, status)~., data=data.frame(time=y.train[,1], status=y.train[,2], data.train), ntree=ntree, seed=-1)
         feature.imp.all <- names(rf.all$importance)[which(rf.all$importance>0)] # the features with non-zero importance
         print(paste("After random forest, features remain:", length(feature.imp.all)))
         print(feature.imp.all)
@@ -50,19 +49,13 @@ rsfcv <- function(x.train,y.train, x.test, y.test, clinical.train, clinical.test
         # for(i in 1:ncol(data.frame(data.train))){
         #     print(str(data.train[i]))
         # }
+        rsf.both.train <- predict(rf.all, data.frame(data.train), seed=-1)$predicted
+        rsf.both.predict <- predict(rf.all, data.frame(data.test), seed=-1)$predicted
 
-        rsf.both.train <- predict(rf.all, data.frame(data.train), seed=-1)$mortality
-        rsf.both.predict <- predict(rf.all, data.frame(data.test), seed=-1)$mortality
-        # library(survcomp)
-        # c.index.train <- concordance.index(rsf.both.train, y.train[,1], y.train[,2])$c.index
-        # c.index.predict <- concordance.index(rsf.both.predict, y.test[,1], y.test[,2])$c.index
-        # print(c.index.predict)
-        # print(rf.all)
-        # print(dim(data.train))
-        # print(dim(rsf.both.train))
-        # print(rsf.both.train)
-        # print(dim(data.test))
-        # print(dim(rsf.both.predict))
+        library(survcomp)
+        c.index.train <- concordance.index(rsf.both.train, y.train[,1], y.train[,2])$c.index
+        c.index.predict <- concordance.index(rsf.both.predict, y.test[,1], y.test[,2])$c.index
+        print(c.index.predict)
         
 	return(rsf.both.predict)
 }

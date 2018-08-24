@@ -1,196 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ad5f96-494b-4141-b65c-e36b17ecc300" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/CoxModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_RPPA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_RPPA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_mRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_mRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/coxcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_RPPA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_mRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_miRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/cox_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/rsfcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_mRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_mRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_methylation+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_methylation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/coxcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/mRNA/mrna+clinical_concordance_by_cox_new.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/mRNA/mrna+clinical_concordance_by_cox_old.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/mRNA/wilcoxontest.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/methylation/methylation+clinical_concordance_by_cox_new.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/methylation/methylation+clinical_concordance_by_cox_old.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/methylation/wilcoxontest.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/miRNA/ov_mirna+clinical_concordance_by_cox_new.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/miRNA/ov_mirna+clinical_concordance_old.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/waldtest/miRNA/wilcoxontest.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_mRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_methylation+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_miRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cox_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/rsfcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/coxcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_RPPA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_RPPA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_mRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_mRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_methylation+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_methylation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_miRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_miRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/cox_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_RPPA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_mRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_methylation+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_miRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/rsfcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/correlation_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA+clinical_by_cox.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/cox_screen.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/lasso.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/SNFtype_cesc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/rsfcv.R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/run.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_RPPA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_RPPA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_mRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_mRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_methylation+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_methylation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_miRNA+clinical_by_rsf.ipy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_miRNA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/CoxModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="402a915f-0922-4ea8-9332-db0d6c972a9a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_RPPA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_miRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_miRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_RPPA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/ov_miRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/RSFModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/rsfcv.R" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/rsfcv.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/rsfcv.R" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/rsfcv.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/rsfcv.R" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/rsf/rsfcv.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_RPPA.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_RPPA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_mRNA.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_mRNA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_methylation.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_methylation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_miRNA.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/rsf/ucec_miRNA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CoxModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/CoxModel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -199,123 +64,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-977152729">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="R" value="4" />
-          <entry key="ipy" value="6" />
-          <entry key="ipynb" value="1" />
-          <entry key="py" value="15" />
-          <entry key="txt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IPNB" value="1" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="R" value="14" />
-          <entry key="dummy" value="17" />
-          <entry key="ipynb" value="9" />
-          <entry key="py" value="1913" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="IPNB" value="9" />
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="1913" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ucec_methylation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation.py">
+    <leaf>
+      <file leaf-file-name="brca_methylation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoxModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2450">
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coxcv.R" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucec_miRNA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucec_mRNA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucec_RPPA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state>
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -325,67 +79,22 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jupyter Notebook" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>features</find>
-      <find>samples</find>
-      <find>clinical_shape</find>
-      <find />
-      <find>work</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.ipynb" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/cox_model.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/model.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_RPPA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/coxcv.R" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/coxcv.R" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/CoxModel.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_mRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_methylation.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_mRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_miRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_methylation.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_mRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_RPPA.py" />
-        <option value="$PROJECT_DIR$/model/CoxModel.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA.py" />
-        <option value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/clinical_mecoluar/run.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
-    <option name="y" value="86" />
+    <option name="x" value="145" />
+    <option name="y" value="31" />
     <option name="width" value="1582" />
     <option name="height" value="959" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -414,31 +123,7 @@
               <item name="Project1" type="462c0819:PsiDirectoryNode" />
               <item name="clinical_mecoluar" type="462c0819:PsiDirectoryNode" />
               <item name="brca" type="462c0819:PsiDirectoryNode" />
-              <item name="cox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="clinical_mecoluar" type="462c0819:PsiDirectoryNode" />
-              <item name="brca" type="462c0819:PsiDirectoryNode" />
-              <item name="cox" type="462c0819:PsiDirectoryNode" />
-              <item name="methylation+clinical" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="clinical_mecoluar" type="462c0819:PsiDirectoryNode" />
-              <item name="brca" type="462c0819:PsiDirectoryNode" />
-              <item name="cox" type="462c0819:PsiDirectoryNode" />
-              <item name="miRNA+clinical" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="clinical_mecoluar" type="462c0819:PsiDirectoryNode" />
-              <item name="brca" type="462c0819:PsiDirectoryNode" />
-              <item name="cox" type="462c0819:PsiDirectoryNode" />
-              <item name="mRNA+clinical" type="462c0819:PsiDirectoryNode" />
+              <item name="rsf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -448,13 +133,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pycharm workspace\Project1\model" />
-    </key>
+    <property name="last_opened_file_path" value="D:/Python Workspace/AIPlatform/AirPrediction_featuremap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -468,8 +148,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ucec_RPPA">
-    <configuration name="Project1" type="JupiterNotebook" factoryName="Jupyter Notebook">
+  <component name="RunManager" selected="Python.brca_methylation">
+    <configuration name="brca_RPPA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,33 +157,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="additionalOptions" value="" />
-      <option name="ipnbHost" value="127.0.0.1" />
-      <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="ov_miRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/ov/cox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_miRNA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_RPPA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ucec_RPPA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="brca_mRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,17 +175,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_mRNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ucec_mRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="brca_methylation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -529,17 +193,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ucec_methylation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="brca_miRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -547,17 +211,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_miRNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ucec_miRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cesc_mRNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -565,31 +229,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_mRNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.Project1" />
-      <item itemvalue="Python.ov_miRNA" />
-      <item itemvalue="Python.ucec_RPPA" />
-      <item itemvalue="Python.ucec_miRNA" />
-      <item itemvalue="Python.ucec_mRNA" />
-      <item itemvalue="Python.ucec_methylation" />
+      <item itemvalue="Python.brca_RPPA" />
+      <item itemvalue="Python.brca_miRNA" />
+      <item itemvalue="Python.cesc_mRNA" />
+      <item itemvalue="Python.brca_mRNA" />
+      <item itemvalue="Python.brca_methylation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ucec_RPPA" />
-        <item itemvalue="Python.ucec_methylation" />
-        <item itemvalue="Python.ucec_mRNA" />
-        <item itemvalue="Python.ucec_miRNA" />
-        <item itemvalue="Python.ov_miRNA" />
+        <item itemvalue="Python.brca_methylation" />
+        <item itemvalue="Python.brca_mRNA" />
+        <item itemvalue="Python.cesc_mRNA" />
+        <item itemvalue="Python.brca_miRNA" />
+        <item itemvalue="Python.brca_RPPA" />
       </list>
     </recent_temporary>
   </component>
@@ -598,72 +261,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85ad5f96-494b-4141-b65c-e36b17ecc300" name="Default Changelist" comment="" />
-      <created>1534663110897</created>
+      <changelist id="402a915f-0922-4ea8-9332-db0d6c972a9a" name="Default" comment="" />
+      <created>1535077785804</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534663110897</updated>
+      <updated>1535077785804</updated>
     </task>
-    <task id="LOCAL-00001" summary="Default Changelist">
-      <created>1534857882051</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1534857882051</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Default Changelist">
-      <created>1534859088764</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1534859088764</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Default Changelist">
-      <created>1534859727913</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1534859727913</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Default Changelist">
-      <created>1534860259785</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1534860259785</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Default Changelist">
-      <created>1534904672527</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1534904672527</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="2">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="86" width="1582" height="959" extended-state="0" />
+    <frame x="145" y="31" width="1582" height="959" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3135377" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50063854" side_tool="true" visible="true" weight="0.21855922" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936143" weight="0.21855922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968071" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47954175" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -676,402 +294,70 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="clinical_test" />
-        <watch expression="clinical_train" language="Python" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>clinical_train</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/CoxModel.py">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation+clinical_by_cox.ipy">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_methylation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3275">
-          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA+clinical_by_cox.ipy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="109" column="133" selection-start-line="109" selection-start-column="120" selection-end-line="109" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1534785754658" expanded="true" signature="1254:1310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/coxcv.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA.py">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_RPPA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/correlation_screen.R">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_mRNA.py">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_miRNA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/rsf/cesc_mRNA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31597">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_mRNA+clinical_by_cox.ipy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.ipynb" />
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.ipy" />
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/model.py" />
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_RPPA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/methylation+clinical/brca_clinical_core.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/correlation_screen.R">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/envs/tensorflow/Lib/site-packages/numpy/core/arrayprint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="1491" column="13" selection-start-line="1491" selection-start-column="13" selection-end-line="1491" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA+clinical_by_cox.ipy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="109" column="133" selection-start-line="109" selection-start-column="120" selection-end-line="109" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA+clinical_by_cox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3275">
-          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation+clinical_by_cox.ipy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1534785754658" expanded="true" signature="1254:1310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/methylation+clinical/methylation+clinical_concordance_by_cox.txt" />
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" />
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/RPPA+clinical/rppa+clinical_concordance_by_cox.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/miRNA+clinical/mirna+clinical_concordance_by_cox.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/envs/tensorflow/Lib/site-packages/pandas/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/CoxModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/lasso.R">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/coxcv.R">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_mRNA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/cox/brca_mRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_mRNA.py">
+    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="9" selection-end-line="41" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_mRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_RPPA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ov/cox/coxcv.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ov/cox/ov_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/coxcv.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/cesc/cox/cesc_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" lean-forward="true" selection-end-line="41" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_mRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_RPPA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2450">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
         </state>
       </provider>
     </entry>
