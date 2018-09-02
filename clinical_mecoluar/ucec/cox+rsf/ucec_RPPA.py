@@ -3,10 +3,9 @@ import os
 import numpy as np
 from model.CoxAndRSFModel import cox_and_rsf_model
 
-
 if __name__ == "__main__":
-    filepaths = ['miRNA+clinical']
-    s = "miRNA"
+    filepaths = ['RPPA+clinical']
+    s = "RPPA"
     for filepath in filepaths:
         if os.path.isdir(filepath):
             for filename in os.listdir(filepath):

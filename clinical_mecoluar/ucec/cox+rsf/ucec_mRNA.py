@@ -5,8 +5,8 @@ from model.CoxAndRSFModel import cox_and_rsf_model
 
 
 if __name__ == "__main__":
-    filepaths = ['miRNA+clinical']
-    s = "miRNA"
+    filepaths = ['mRNA+clinical']
+    s = "mRNA"
     for filepath in filepaths:
         if os.path.isdir(filepath):
             for filename in os.listdir(filepath):
