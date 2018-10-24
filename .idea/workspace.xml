@@ -2,8 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402a915f-0922-4ea8-9332-db0d6c972a9a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_RPPA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/cesc_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/cesc_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/cesc_miRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/correlation_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/cox_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/coxcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/lasso.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/cesc/cox+rsf/rsfcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/correlation_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/cox_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/coxcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/lasso.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/ov_RPPA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/ov_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/ov_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/ov_miRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ov/cox+rsf/rsfcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/RPPA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/RPPA+clinical/rppa+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/correlation_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/cox_screen.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/coxcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/lasso.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/mRNA+clinical/mrna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/mRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/methylation+clinical/methylation+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/methylation+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/miRNA+clinical/mirna+clinical_concordance_by_cox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/miRNA+clinical/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/rsfcv.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_RPPA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_mRNA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_methylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_miRNA.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_methylation.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_methylation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_miRNA.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinical_mecoluar/brca/cox+rsf/brca_miRNA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,47 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ucec_RPPA.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ucec_RPPA.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_RPPA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="81">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucec_miRNA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoxModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="86" column="42" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coxcv.R" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -139,8 +166,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="168" />
-    <option name="y" value="106" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -149,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +200,7 @@
               <item name="Project1" type="462c0819:PsiDirectoryNode" />
               <item name="clinical_mecoluar" type="462c0819:PsiDirectoryNode" />
               <item name="ucec" type="462c0819:PsiDirectoryNode" />
-              <item name="cox" type="462c0819:PsiDirectoryNode" />
+              <item name="cox+rsf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,24 +367,16 @@
       <option name="project" value="LOCAL" />
       <updated>1535685842272</updated>
     </task>
-    <task id="LOCAL-00003" summary="cox_rsf融合模型跑完">
-      <created>1535849651468</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1535849651468</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20364584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3286026" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.3286026" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,8 +398,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="所有RSF模型和cox模型跑好" />
     <MESSAGE value="加入cox_rsf融合模型" />
-    <MESSAGE value="cox_rsf融合模型跑完" />
-    <option name="LAST_COMMIT_MESSAGE" value="cox_rsf融合模型跑完" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入cox_rsf融合模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -458,50 +476,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_methylation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_mRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_RPPA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clinical_mecoluar/brca/rsf/brca_methylation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,6 +525,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,6 +535,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="36" column="23" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,6 +545,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="110" column="66" selection-start-line="110" selection-start-column="61" selection-end-line="110" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +598,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,6 +615,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -622,6 +625,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,6 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,6 +645,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,6 +662,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,6 +672,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="889">
           <caret line="46" column="95" lean-forward="true" selection-start-line="23" selection-end-line="46" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,6 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="50" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,6 +692,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,6 +702,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,6 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="45" column="95" selection-start-line="45" selection-start-column="95" selection-end-line="45" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,38 +750,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox+rsf/ucec_RPPA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="81">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/ucec_miRNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/CoxModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="86" column="42" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
