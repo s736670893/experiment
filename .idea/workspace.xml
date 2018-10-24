@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402a915f-0922-4ea8-9332-db0d6c972a9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/后续下载的数据/下载数据说明.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/后续下载的数据/下载数据说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/后续下载的数据/下载数据说明.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +89,7 @@
       <file leaf-file-name="coxcv.R" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="486">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
@@ -99,8 +99,8 @@
         <entry file="file://$PROJECT_DIR$/后续下载的数据/下载数据说明.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <first_editor relative-caret-position="468">
+                <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -182,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
@@ -335,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535685842272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="后续数据下载">
+      <created>1540346157478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540346157478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -344,31 +351,21 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20364584" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.3286026" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.360262" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3286026" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20364584" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.360262" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -377,7 +374,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="所有RSF模型和cox模型跑好" />
     <MESSAGE value="加入cox_rsf融合模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入cox_rsf融合模型" />
+    <MESSAGE value="后续数据下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="后续数据下载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clinical_mecoluar/ucec/cox/coxcv.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="486">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
@@ -807,8 +805,8 @@
     <entry file="file://$PROJECT_DIR$/后续下载的数据/下载数据说明.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <first_editor relative-caret-position="468">
+            <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
